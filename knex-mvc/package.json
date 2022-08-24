@@ -1,0 +1,21 @@
+{
+    "name": "knex-mvc",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": " nodemon index.js",
+        "staging": "nodemon index.js",
+        "production": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "G4",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "knex": "^0.95.14",
+        "pg": "^8.7.1"
+    }
+}
